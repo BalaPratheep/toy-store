@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JoyBox | Fancy Toys & Gifts</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <div class="logo">🎈 JoyBox Toys</div>
+    <div class="cart-status">
+      🛒 Cart: <span id="cart-count">0</span> items
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Magical Toys for Every Age</h1>
+    <p>Discover unique, fancy, and high-quality toys for your little ones!</p>
+  </section>
+
+  <!-- Product Catalog -->
+  <main class="product-grid" id="product-container">
+    <!-- Products render dynamically via JavaScript -->
+  </main>
+
+  <!-- Shopping Cart Modal -->
+  <div id="cart-modal" class="modal hidden">
+    <div class="modal-content">
+      <h2>Your Shopping Cart</h2>
+      <ul id="cart-items"></ul>
+      <p class="total">Total: $<span id="cart-total">0.00</span></p>
+      <div class="modal-actions">
+        <button id="checkout-btn" onclick="checkout()">Checkout via WhatsApp</button>
+        <button id="close-cart" class="secondary" onclick="toggleCart()">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
