@@ -1,9 +1,9 @@
 // Product Dataset
 const products = [
-  { id: 1, name: "Remote Control Stunt Car", price: 29.99, image: "https://images.unsplash.com/photo-1594787318286-3d835c1d207f?w=400" },
-  { id: 2, name: "Plush Giant Teddy Bear", price: 39.99, image: "https://images.unsplash.com/photo-1559454403-b8fb88521f11?w=400" },
-  { id: 3, name: "Wooden Educational Puzzle", price: 14.99, image: "https://images.unsplash.com/photo-1587654780291-39c9404d746b?w=400" },
-  { id: 4, name: "Fancy RC Drone for Kids", price: 49.99, image: "https://images.unsplash.com/photo-1527977966376-1c8408f9f108?w=400" }
+  { id: 1, name: "product 1", price: 29.99, image: "https://images.unsplash.com/photo-1594787318286-3d835c1d207f?w=400" },
+  { id: 2, name: "product 2", price: 39.99, image: "https://images.unsplash.com/photo-1559454403-b8fb88521f11?w=400" },
+  { id: 3, name: "product 3", price: 14.99, image: "https://images.unsplash.com/photo-1587654780291-39c9404d746b?w=400" },
+  { id: 4, name: "product 4", price: 49.99, image: "https://images.unsplash.com/photo-1527977966376-1c8408f9f108?w=400" }
 ];
 
 let cart = [];
