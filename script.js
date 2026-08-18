@@ -31,7 +31,7 @@ function updateCartUI() {
   document.getElementById("cart-count").innerText = cart.length;
   
   const cartItemsList = document.getElementById("cart-items");
-  cartItemsList.innerHTML = cart.map(item => `<li>${item.name} - $${item.price.toFixed(2)}</li>`).join("");
+  cartItemsList.innerHTML = cart.map(item => `<li>₹{item.name} - ₹₹{item.price.toFixed(2)}</li>`).join("");
   
   const total = cart.reduce((sum, item) => sum + item.price, 0);
   document.getElementById("cart-total").innerText = total.toFixed(2);
